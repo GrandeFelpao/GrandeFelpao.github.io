@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.voltar, .proximo{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4rem;
+    border: 0.1rem solid black;
+    border-radius: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 10%;
+}
+main{
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+}
+h1 {
+    display:flex ;      
+    font-size: 50px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+input[type='radio'] {
+
+    box-sizing: border-box;
+    appearance: none;
+    background: white;
+    outline: 2px solid #333;
+    border: 3px solid white;
+    width: 25px;
+    height: 25px;
+  }
+  
+input[type='radio']:checked {
+    background: #333;
+}
+label{
+    position: absolute;
+    font-weight: bold;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.por_semana, .duracao{
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+}
