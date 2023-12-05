@@ -12,7 +12,7 @@ html, body{
     width: 4rem;
     border: 0.1rem solid black;
     border-radius: 100%;
-    
+    font-family: "Ubuntu", sans-serif;
 }
 .header{
     display: flex;
@@ -37,4 +37,10 @@ main{
     margin-top: 1rem;
     margin-left: 1rem;
     border: 0.2rem solid black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;
 }

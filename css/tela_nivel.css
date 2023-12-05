@@ -29,6 +29,7 @@ h1{
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
     
 }
 form{
@@ -38,7 +39,7 @@ form{
     flex-direction: column;
     justify-content: space-between;
     font-size: 50px;
-
+    font-family: "Ubuntu", sans-serif;
 }
 
 footer{
@@ -55,11 +56,11 @@ footer{
     justify-content: center ;
 }
 .concluir{
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    width: 11rem;
+    margin-left: 0rem;
+    width: 11.6rem;
+    border-radius: 5%;
     border: 0.2rem solid black;
+    font-family: "Ubuntu", sans-serif;
 }
 input[type='radio'] {
 

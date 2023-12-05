@@ -8,6 +8,17 @@ header{
     width: 100%;
 }
 
+h1{
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;   
+    
+}
+
+h2{
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;   
+    
+}
 
 .header{
     display: flex;
@@ -52,6 +63,7 @@ footer {
     width: 100%;
     align-items: center;
     height: 15%;    
+    font-family: "Ubuntu", sans-serif;
 }
 .icone-superior-esquerda{
     border-right: 0.5rem solid black;
