@@ -1,3 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector(".nome_usuario").innerHTML = localStorage.getItem("usuario");
-})
+function salvarNome(){
+    var usuario = document.getElementById("usuario").value;
+    localStorage.setItem("usuario", usuario)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
