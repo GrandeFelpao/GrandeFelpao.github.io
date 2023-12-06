@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+header{
+    width: 100%;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: "Ubuntu", sans-serif;   
+    
+}
+
+h2{
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;   
+    
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4rem;
+}
+
+.perfil{
+    width: 4rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+main{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.5rem solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    height: 15%;    
+    font-family: "Ubuntu", sans-serif;
+}
+.icone-superior-esquerda{
+    border-right: 0.5rem solid black;
+}
+.icone-superior-direita{
+    border-left: 0.5rem solid black;
+}
+.icone-superior-direita, .icone-superior-esquerda{
+    border-bottom: 0.5rem solid black;
+}

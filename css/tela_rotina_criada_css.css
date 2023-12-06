@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.voltar, .proximo{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4rem;
+    border: 0.1rem solid black;
+    border-radius: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 20%;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.border, ul{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 0.2rem solid black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;
+}

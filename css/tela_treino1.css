@@ -1,0 +1,131 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.voltar, .proximo{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4rem;
+    border: 0.1rem solid black;
+    border-radius: 100%;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 15%;
+}
+main{
+    display: flex;
+    height: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    width: 100%;
+    height: 175px;
+    justify-content: center;
+    background-color: solid white;
+    padding: 10%;
+
+    position: relative;
+    
+}
+div{
+    flex-direction: row;
+    border: 5px solid black;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 80%;
+    height: 90px;
+    position: relative;
+}
+.corner {
+    width: 20px;
+    height: 20px;
+    background-color: #ece4e3;
+    border-radius: 50%;
+    position: absolute;
+}
+h2{
+    width: 75%;
+    height: 65%;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.massa{
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 33%;
+    height: 35%;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: absolute;
+}
+.freq{
+    text-align: center;
+    bottom: 0;
+    left: 33%;
+    width: 33%;
+    height: 35%;
+    position: absolute;
+}
+.ajuda{
+    color: #FF9933;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    width: 33%;
+    height: 35%;
+    border: 5px solid #FF9933;
+    border-radius: 20px;
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+}
+.trocar{
+    color: #ff0d00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 25%;
+    border: 5px solid #ff0d00;
+    border-radius: 20px;
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+}
+
+img{
+    width: 25%;
+}
+.massa, .freq, .ajuda{
+    font-size: 30px;
+}
+
+
